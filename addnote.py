@@ -1,14 +1,26 @@
+#!/usr/bin/python3
+
 import time
 from os import path
 
-def main():
-    CFG_FILE = "notes.cfg"
-    CFG_PATH = ".cfg"
+def main():    
+     
+    context = get_context()
+    note = get_note()
 
-    context = input('context: ')
+    current_time = time.strftime("%Y-%d-%m-%H%M", time.localtime())
+
+    print(current_time + 
+          '\n' + context + 
+          '\n' + note
+    )
+def get_context():
+    msg = input('context: ')
+    return msg
+
+def get_note():
     note = ''
     current_line = ''
-
     print('Enter note, use a . on a line by itself to end.')
 
     while(current_line != '.'):
@@ -16,13 +28,7 @@ def main():
         if (current_line != '.'):
             note += current_line + '\n' 
 
-    current_time = time.strftime("%H%M", time.localtime())
-
-    print('note added: ' + current_time + 
-          '\ncontext: ' + context + 
-          '\ndetails: \n' + note
-    )
-def get_config(cfg_file)
+    return note
 
 if __name__ == '__main__':
     main()
