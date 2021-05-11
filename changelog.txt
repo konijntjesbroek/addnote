@@ -5,3 +5,5 @@
 2021-05-10.2345 moved all note related functions into the Note class as methods
                 redefined write_out to use the note str() formatting
                 corrected the date as it was configured to YYYY-dd-mm            
+2021-05-11.0018 corrected write_out from w to a mode so I can keep track of more 
+                than one note at a time. Dead useful, that.

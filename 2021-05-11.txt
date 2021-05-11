@@ -4,3 +4,8 @@ trying out the new version of exclude to see if it ignores the .gitignore and
 random note files
 
 
+2021-05-11-0517
+test
+attempting to add a note to an existing file.
+
+

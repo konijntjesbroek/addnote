@@ -58,7 +58,7 @@ def main():
 def write_out(n, f):
     print(f'printing to {f}\n{n}')
 
-    with open(f, 'w') as ofile:
+    with open(f, 'a') as ofile:
         ofile.write(n)
 
 if __name__ == '__main__':
