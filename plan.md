@@ -28,6 +28,11 @@ Phase one confirmed complete
 - Create a shim to allow replit to run the application. Complete
 - Create a document for today's date if one does not exist.
 - Append note to note for today's date.
+- **NEW** make note class and migrate all the functions into the method
+
+```
+Phase 2 working, need to rework into a class before moving onto Phase 3
+```
 
 ### Phase 3:
 - Allow users to configure how and where they want to store their notes.

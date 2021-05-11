@@ -5,7 +5,7 @@ import revnote
 import syncnote
 
 def main():
-    menu =  '1 - add note \n2 - review notes\n3 - synchronize notes' 
+    menu =  '1 - add note \n2 - review notes\n3 - synchronize notes\n' 
     prompt = 'Please enter a menu selection [1-3]: '
     
     app = ''

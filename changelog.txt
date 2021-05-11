@@ -2,3 +2,6 @@
           .2050 note format and timestamp working
           .2120 check config file exists
 2021-05-05.0519 created shim for repl.it
+2021-05-10.2345 moved all note related functions into the Note class as methods
+                redefined write_out to use the note str() formatting
+                corrected the date as it was configured to YYYY-dd-mm            
