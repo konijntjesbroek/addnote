@@ -1,5 +1,6 @@
-2021-05-11-0447
-test
-3rd attempt at a classy note
+2021-05-11-0502
+testing
+trying out the new version of exclude to see if it ignores the .gitignore and
+random note files
 
 
